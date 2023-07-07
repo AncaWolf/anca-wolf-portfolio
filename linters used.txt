@@ -1,0 +1,4 @@
+I used stylelint for CSS and HTMLHint for HTML. 
+The W3C Validator has also been used for each html and css file. 
+For stylelint.config.js I used the code provided in the lesson, and the linter lists an error. I do not know how to fix this error. I have searched on forums and could not find a solution.
+The compatibility issues from style.production.css appeared after the Autoprefixer. I do not understand how to fix the warnings. I used the autoprefixer as it was specified in the lessons. I see that Edge and IE 10 are the ones causing compatibility issues. I checked the website on Edge(PC) (it's automatically inxtalled on my machine) and it works.
