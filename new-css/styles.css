@@ -173,12 +173,19 @@ a:focus {
   text-align: center;
 }
 
-.table {
+/* .table {
   display: table;
   border-collapse: separate;
   text-indent: initial;
   border-spacing: 2px;
   border-color: var(--table-color);
+} */
+table {
+  margin: auto;
+  text-align: center;
+  background-color: var(--bg-secondary-color);
+  padding: 2px 5px;
+  margin-bottom: 15px;
 }
 
 .skills {
