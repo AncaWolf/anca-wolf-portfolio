@@ -1,5 +1,5 @@
 MACOS 12-US - About me - skills list not centeredd (later edit: fixed)
-IE11 - same issue (code is wrong) - see "margin" property (later edit: fixed)
+Windows 11 - same issue (code is wrong) - see "margin" property (later edit: fixed)
 
 Apple iPhone 7 - all pages - nav bar looks wrong
 Google Pixel 3a Android - all pages - nav bar looks wrong
@@ -7,3 +7,7 @@ Motorola Google Nexus (QHD) - Index page Hello World missplaced (covers the link
 LG Google Nexus (Full HD) - nav bar looks wrong
 
 mobile devices - About me skills table looks centered.
+
+I just checked the first options in the lists. I could not find Microsoft Edge. After search the Cross Browser Tester returned "Device not found".
+
+I tried to fix the header position on mobile devices, but I do not know how. I checked the approved examples, and they behave in a similar fashion. I have checked with "inspect" several websites with a fixed header hoping I could implement something in my code, but I did not manage to do so. On one forum I found something about a new class to be added called "fixed", which would be then styles in css, but that it would be introduced in a js file - and I don't know how to work with that yet.
