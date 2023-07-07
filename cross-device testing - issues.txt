@@ -1,5 +1,5 @@
-MACOS 12-US - About me - skills list not centered
-IE11 - same issue (code is wrong) - see "margin" property
+MACOS 12-US - About me - skills list not centeredd (later edit: fixed)
+IE11 - same issue (code is wrong) - see "margin" property (later edit: fixed)
 
 Apple iPhone 7 - all pages - nav bar looks wrong
 Google Pixel 3a Android - all pages - nav bar looks wrong
