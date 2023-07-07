@@ -182,11 +182,7 @@ a:focus {
 }
 
 .skills {
-  margin-top: 0 px;
-  margin-right: auto;
-
-  /* margin-bottom: 0 px;
-  margin-left: auto; */
+  margin: 0 px auto;
   outline-color: var(--skills-outline);
   outline-style: solid;
   outline-width: 3px;
