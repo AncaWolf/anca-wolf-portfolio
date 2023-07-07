@@ -1,0 +1,9 @@
+MACOS 12-US - About me - skills list not centered
+IE11 - same issue (code is wrong) - see "margin" property
+
+Apple iPhone 7 - all pages - nav bar looks wrong
+Google Pixel 3a Android - all pages - nav bar looks wrong
+Motorola Google Nexus (QHD) - Index page Hello World missplaced (covers the 			link "Work"). Nav bar wrong on all pages
+LG Google Nexus (Full HD) - nav bar looks wrong
+
+mobile devices - About me skills table looks centered.
