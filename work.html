@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-    <link rel="stylesheet" type="text/css" href="new-css/style.production.css"> 
+    <link rel="stylesheet" type="text/css" href="css\style.production.css">
     <title>Anca Wolf - My work</title>
-    <link rel="shortcut icon" href="../anca-wolf-portfolio/img/favicon-32x32.png"> 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" >
+    <link rel="shortcut icon" href="../anca-wolf-portfolio/img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
+
 <body>
     <header class="page-header">
         <img src="img/signature-aw.png" alt="logo" class="page-header__item">
@@ -24,7 +26,8 @@
                     <a href="./about.html" role="menuitem" class="navigation-list__item">About Me</a>
                 </li>
                 <li role="presentation">
-                    <a href="./work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+                    <a href="./work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">My
+                        Work</a>
                 </li>
                 <li role="presentation">
                     <a href="./contact.html" role="menuitem" class="navigation-list__item">Contact</a>
@@ -33,49 +36,79 @@
         </nav>
     </header>
     <section class="work">
-        <h1>Work</h1>
+        <h1>My Work</h1>
         <div class="grid">
+            <!-- Pokédex App -->
             <div class="grid__item">
-               <h2>Project 1</h2>
-               <p>Nam elementum convallis accumsan. Donec sodales dignissim laoreet. Maecenas pharetra erat urna, a ullamcorper dui auctor sed. Phasellus ipsum est, porta laoreet arcu in, euismod vulputate urna. Aliquam ac aliquet elit, at hendrerit neque. Ut viverra elementum enim et mattis. Fusce porta semper felis at dictum.</p>
-               <a href="#">See project 1</a>
+                <h2>Pokédex App - JavaScript</h2>
+                <img class="project-imgs" src="img\pokedex-sample.PNG" alt="Screenshot of the Pokédex App">
+                <p>A small web application that loads data from an external API, built with JavaScript.</p>
+                <a href="#" target="_blank"><button>View the code on GitHub</button></a>
             </div>
+            <!-- myFlix App -->
             <div class="grid__item">
-                <h2>Project 2</h2>
-               <p>In ex sapien, rhoncus id eros vitae, lobortis commodo metus. Pellentesque porttitor feugiat tempus. Morbi id tristique mauris, eget interdum lorem. Nam id tincidunt risus. Ut scelerisque mauris a libero vehicula accumsan. Sed rhoncus, eros sed iaculis dictum, nisl neque facilisis turpis, in dapibus ante orci ut sem.</p>
-               <a href="#">See project 2</a>
+                <h2> myFlix App - REST architecture</h2>
+                <img class="project-imgs" src="img\my-flix-BE.PNG" alt="Screenshot of myFlix back-end code">
+                <p>myFlix App Project consists of the server-side component of a movies web application developed with
+                    Node.js, Express, and MongoDB. The API created for this project uses a REST architecture.
+                </p>
+                <a href="https://github.com/AncaWolf/movie_api.git" target="_blank"><button>View the code on
+                        GitHub</button></a>
             </div>
+            <!-- myFlix React App -->
             <div class="grid__item">
-                <h2> Project 3</h2>
-               <p>Morbi pellentesque arcu eget libero tincidunt pellentesque. Mauris lacus mi, venenatis pharetra ullamcorper sed, sodales non ex. Nam molestie urna eget ligula consequat, sed efficitur augue cursus. Donec commodo arcu eu auctor cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque eget augue aliquet, semper leo et, sollicitudin augue. Sed commodo suscipit erat, nec dignissim nisl laoreet a. Curabitur cursus molestie massa, at iaculis urna posuere vel.</p>
-               <a href="#">See project 3</a>
+                <h2> myFlix App - React</h2>
+                <img class="project-imgs" src="img\myFlix-react.PNG" alt="Screenshot of myFlix React App">
+                <p>This project consists of the client-side component for the myFlix app. It was built using the React
+                    library. It offers users the possibility to search and view details about movies, as well as adding
+                    movies to a list of favourites.</p>
+                <a href="https://github.com/AncaWolf/myFlix-client.git" target="_blank"><button>View the code on
+                        GitHub</button></a>
+                <a href="https://myflix-client2.netlify.app/" target="_blank"><button>See project here</button></a>
             </div>
+            <!-- Meet App project -->
             <div class="grid__item">
-                <h2> Project 4</h2>
-               <p>Nunc ullamcorper, quam sed mollis mollis, dui diam vestibulum erat, sed cursus ex dolor at nibh. Fusce et turpis placerat, porta sapien ut, volutpat lorem. Etiam sodales velit eu sem gravida, ac lobortis risus varius. Donec sodales eleifend placerat. Morbi et ante tempor, tincidunt risus eget, condimentum lacus. </p>
-               <a href="#">See project 4</a>
+                <h2>Meet App - TDD technique</h2>
+                <img class="project-imgs" src="img\meet-app.PNG" alt="Screenshot of the Meet App">
+                <p>This is a serverless, progressive web application (PWA) built with React, using a test-driven
+                    development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.
+                </p>
+                <a href="https://ancawolf.github.io/meet/" target="_blank"><button>See project here</button></a>
+                <a href="https://github.com/AncaWolf/meet.git" target="_blank"><button>View the code on
+                        GitHub</button></a>
             </div>
+            <!-- Mobile Chat App -->
             <div class="grid__item">
-                <h2>Project 5</h2>
-               <p>Fusce lacinia porttitor magna ut accumsan. Proin at purus a tellus ultrices interdum quis in libero. Phasellus at diam nec magna gravida tempus eget at quam.</p>
-               <a href="#">See project 5</a>
+                <h2>Chat App - React Native</h2>
+                <img class="project-imgs" src="img\chatApp-sample.png" alt="Screenshot of the Chat App">
+                <p>The objective of this project was to build a chat app for mobile devices using React Native. It
+                    provides users with a chat interface, the option to share images and location.</p>
+                <a href="https://github.com/AncaWolf/ChatApp.git" target="_blank"><button>View the code on
+                        GitHub</button></a>
             </div>
+            <!-- myFlix - Angular -->
             <div class="grid__item">
-                <h2>Project 6</h2>
-               <p>Nulla blandit mi vel iaculis pretium. Nullam ac nunc egestas metus faucibus porttitor quis id sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec blandit volutpat sagittis. Praesent augue tortor, porttitor ac volutpat ac, cursus sit amet mauris. Sed id erat in turpis vehicula molestie.</p>
-               <a href="#">See project 6</a>
+                <h2>myFlix - Angular</h2>
+                <img class="project-imgs" src="img\Angular-codeSample.png" alt="Screenshot of the Angular myFlix App">
+                <p>This project focuses on building the client-side for an application based on its existing server-side
+                    code, using Angular.</p>
+                <a href="https://github.com/AncaWolf/Angular-myFlix.git" target="_blank"><button>View the code on
+                        GitHub</button></a>
             </div>
         </div>
     </section>
     <footer class="page-footer">
         <p>Find me on</p>
         <div class="social-media">
-            <img src="img/211904_social_github_icon.svg" alt="Github">
-            <!-- <img src="img/294709_circle_twitter_icon.svg" alt="Twitter"> -->
-            <img src="img/317750_linkedin_icon.svg" alt="LinkedIn">
+            <a class="social-link" href="https://github.com/AncaWolf" target="_blank">
+                <img src="img/211904_social_github_icon.svg" alt="Github">
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/anca-wolf-39596b66/" target="_blank">
+                <img src="img/317750_linkedin_icon.svg" alt="LinkedIn">
+            </a>
         </div>
     </footer>
-      <!-- <a href="#">Back to top</a> -->
-  <script src="js/tota11y.min.js"></script>  
+    <script src="js/tota11y.min.js"></script>
 </body>
+
 </html>
