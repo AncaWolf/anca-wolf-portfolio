@@ -145,6 +145,10 @@
         justify-content: space-between;
         box-sizing: border-box;
     }
+    .grid_item-text {
+      text-align: justify;
+    }
+
     .project-imgs {
         width: 70%;
         height: auto;
@@ -209,12 +213,16 @@ th {
 thead {
     text-align: center;
 }
+
+para-center {
+  text-align: justify;
+}
   
   /* Work */
   .work {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
   }
   
   /* Contact */
