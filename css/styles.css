@@ -214,6 +214,11 @@ thead {
     text-align: center;
 }
 
+.table-profile {
+  border-collapse: collapse; /* Collapse borders */
+  border: none; /* Remove default table border */
+
+}
 para-center {
   text-align: justify;
 }
