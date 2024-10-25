@@ -115,6 +115,11 @@
             flex-direction: column;
     text-align: center;
   }
+
+  #copyright-footer {
+    padding: 1em 0.5em 0.5em;
+    text-align: center;
+  }
   
   .grid__item {
     display: inline-block;
@@ -234,6 +239,35 @@
   .para-center {
     text-align: justify;
   }
+
+  #dev-skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 1.5em;
+    background: #4aa17d;
+    color: #fff;
+  }
+  
+  .devskills-tag {
+    margin: 0.3em;
+    padding: 0.5em;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 9em;
+    background: #234d3b;
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
 
   /* Work */
   .work {
